@@ -36,7 +36,7 @@ There is no value `radius` on that object, which returns `undefined`.
 
 ---
 
-###### 1. What's the output?
+###### 2. What's the output?
 
 ```python
 s = 'foo'
