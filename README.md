@@ -35,3 +35,28 @@ There is no value `radius` on that object, which returns `undefined`.
 </details>
 
 ---
+
+###### 1. What's the output?
+
+```python
+s = 'foo'
+t = 'bar'
+print('barf' in 2 * (s + t))
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: True
+
+`s + t` gives `'foobar'`
+`2 * (s + t)` gives `'foobarfoobar'`
+
+and since, `'barf'` is present in `'foobarfoobar'`,
+we can find that using the `in` operator
+in python which finds `'barf'` in the given string.
+
+</p>
+</details>
+
+---
