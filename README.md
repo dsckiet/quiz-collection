@@ -85,10 +85,10 @@ console.log(arr.reduce((agg, el) => agg + el(agg), 1));
 
 With `array.reduce`, the initial value of the aggregator (here, named `agg`) is given in the second argument. In this case, that's `1`. We can then iterate over our functions as follows:
 
-1 + 1 * 1 = 2
-2 + 2 * 2 = 6
-6 + 6 * 3 = 24
-24 + 24 * 4 = 120
+###### 1 + 1 * 1 = 2
+###### 2 + 2 * 2 = 6
+###### 6 + 6 * 3 = 24
+###### 24 + 24 * 4 = 120
 
 Since array reduce is use to flatten or change the array to something we want
 
